@@ -4,6 +4,7 @@ CPE-URI
 Bind/Unbind [CPE URIs](http://csrc.nist.gov/publications/nistir/ir7695/NISTIR-7695-CPE-Naming.pdf)
 
 To unbind/parse a CPE URI:
+
     var cpe_uri = require('cpe-uri');
     console.log(cpe_uri.parse('a:vendor:product:version:update:edition:lang'));
     /* {
@@ -17,6 +18,7 @@ To unbind/parse a CPE URI:
     } */
 
 To bind/format a CPE URI:
+
     var cpe_uri = require('cpe-uri');
     console.log(cpe_uri.format({
       part: 'a',
