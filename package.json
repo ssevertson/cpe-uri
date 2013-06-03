@@ -1,0 +1,23 @@
+{
+  "name": "cpe-uri",
+  "version": "0.0.1",
+  "description": "Parse/format CPE URIs",
+  "author": "Scott Severtson",
+  "homepage": "http://github.com/ssevertson/cpe-uri",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/ssevertson/cpe-uri.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "~1.6.0",
+    "mocha": "~1.10.0"
+  },
+  "main": "./lib/main",
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha -R spec"
+  }
+}
